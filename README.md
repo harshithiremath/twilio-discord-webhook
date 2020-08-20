@@ -15,10 +15,10 @@ This **Flask** server runs on top of **Gunicorn** Web Server Gateway, that I hav
 4. Create an account on Twilio, and set up a **WhatsApp sandbox**.
 5. In the Sandbox Configuration Page, add the link to the API that you hosted on the internet. (in this case, URL to [app.py](app.py) that we hosted in step 3). And you're done setting up the worker!
 6. Now *"join"* the Sandbox by sending `join <SandBox_Name>`  
-![.](Files/join_sandbox.jpeg)
+![.](Files/join_sandbox.jpeg)  
 7. This step is self-explanatory :)  
 ![send_message](Files/send_message.jpeg)  
-> You receive it in the Server  
+>   You receive it in the Server  
 > ![received in discord](Files/discord_capture.png)  
 ---
 This one was a quickie ;)
