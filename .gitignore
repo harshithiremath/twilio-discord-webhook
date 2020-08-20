@@ -2,6 +2,6 @@
 /virtualEnv
 
 # The Discord WebHook URL of the server
-./DiscordWHUrl.py
+/DiscordWHUrl.py
 
 
