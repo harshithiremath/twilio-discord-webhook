@@ -29,7 +29,7 @@ def sms_reply():
         flagOrState = msgFromWhatsapp.strip().split()[1]
         if flagOrState == "--help":
             resp.message(
-                "Called Help. \nYou can get the Covid Cases stats of Indian states by texting\n ```corona <state_name>``` \nFor example, send \n ```corona karnataka``` to get the Covid-19 cases stats of Karnataka State of India.")
+                "Called Help. \nYou can get the Covid Cases stats of Indian states by texting\n```corona <state_name>``` \n\nFor example, send \n ```corona karnataka``` \nto get the Covid-19 cases stats of Karnataka State of India.")
         else:
             try:
                 resFromApi = requests.get(
