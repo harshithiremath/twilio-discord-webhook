@@ -19,9 +19,10 @@ This **Flask** server runs on top of **Gunicorn** Web Server Gateway, that I hav
 ![.](Files/join_sandbox.jpeg)  
 7. This step is self-explanatory :)  
 ![send_message](Files/send_message.jpeg)  
->   You receive this in the Server  
+> You receive this in the Server  
 > ![received in discord](Files/discord_capture.png)  
 
+------
 ### One can also get the Covid stats of Indian States by calling the `corona` command.
 > Props to [Karthik Venugopal](https://github.com/Karthikvenugopal) for this feature.  
 
